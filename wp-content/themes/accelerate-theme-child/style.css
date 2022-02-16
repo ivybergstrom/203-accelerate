@@ -1,0 +1,43 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Ivy Bergstrom
+Author URI:   http://ivycodes.tech
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+#masthead{
+    background: #45AB9D;
+}
+
+.button{
+    background: #45AB9D;
+}
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.blog-post h4{
+    font: 700 1em/1.75 'Monsterrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.read-more-link{
+    font-family: 'Monsterrat';
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
